@@ -96,3 +96,13 @@ When they create an invoice in the Fundify app,
 Then they should have options to add items, quantities, and prices,
 And they should be able to track the payment status of the invoice,
 And receive notifications for overdue payments.
+
+Title: Inventory Management Integration
+
+Scenario B: Business owner tracks inventory with sales.
+
+Given the business owner has items in their inventory,
+When they make a sale through the app,
+Then the app should automatically adjust the inventory count,
+And display an alert when stock reaches a low threshold,
+And provide a report of inventory levels at the end of the day.
