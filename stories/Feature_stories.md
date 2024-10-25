@@ -18,3 +18,14 @@ When they enter the supplier's account details and transfer amount,
 Then the app should prompt them to confirm the transaction,
 And upon confirmation, the transfer should be processed immediately,
 And a receipt should be saved in their transaction history.
+
+Feature 2: Microloan Platforms
+
+Title: Access to Small Business Microloans
+
+Scenario A: Business owner applies for a microloan.
+Given the business owner has a transaction history on the app,
+When they apply for a loan in the “Loans” section,
+Then the app should show them the maximum amount they are eligible to borrow,
+And prompt them to select a repayment period,
+And display the interest rate based on their profile and business transactions.
