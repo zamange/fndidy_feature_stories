@@ -84,3 +84,15 @@ When they receive payment via the POS in the Fundify app,
 Then the app should prompt them to enter the transaction amount,
 And upon confirmation, the funds should reflect in their digital wallet instantly,
 And they should be able to generate a sales report for the day.
+
+
+Feature 5: Digital Bookkeeping and Invoicing Tools
+
+Title: Automated Invoicing and Payment Tracking
+
+Scenario A: Small business owner creates and tracks invoices.
+Given the business owner needs to bill a customer,
+When they create an invoice in the Fundify app,
+Then they should have options to add items, quantities, and prices,
+And they should be able to track the payment status of the invoice,
+And receive notifications for overdue payments.
