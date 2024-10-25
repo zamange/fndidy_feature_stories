@@ -130,3 +130,24 @@ When they set up a micro-savings plan,
 Then the app should automatically transfer a small amount to their savings account at a specified interval,
 And show progress toward their savings goal,
 And notify them once their target amount is reached.
+
+Feature 7: Blockchain and Decentralized Finance (DeFi)
+
+Title: Decentralized Loan Access
+
+Scenario A: Small business owner requests a decentralized loan.
+Given the business owner wants a loan outside traditional banks,
+When they select a DeFi loan option in the Fundify app,
+Then the app should prompt them to verify their identity using blockchain,
+And offer available DeFi loan options based on their blockchain credit score,
+And allow them to proceed with the loan if they meet eligibility criteria.
+
+Title: Blockchain-Based Identity Verification
+
+Scenario B: Business owner verifies their identity for financial services.
+
+Given the business owner is new to formal banking,
+When they set up their profile in the Fundify app,
+Then the app should offer blockchain-based identity verification,
+And link their identity with a unique blockchain ID,
+And allow them to use this ID for accessing further financial services.
