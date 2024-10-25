@@ -29,3 +29,14 @@ When they apply for a loan in the “Loans” section,
 Then the app should show them the maximum amount they are eligible to borrow,
 And prompt them to select a repayment period,
 And display the interest rate based on their profile and business transactions.
+
+
+Title: AI-driven Credit Assessment
+
+Scenario B: App evaluates business owner’s loan eligibility.
+
+Given the business owner has requested a loan,
+When the app evaluates their transaction history and business activity,
+Then it should calculate a credit score based on alternative data,
+And provide a real-time decision on their eligibility for the loan,
+And offer a customized repayment plan if approved.
