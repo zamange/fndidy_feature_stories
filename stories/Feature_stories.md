@@ -106,3 +106,16 @@ When they make a sale through the app,
 Then the app should automatically adjust the inventory count,
 And display an alert when stock reaches a low threshold,
 And provide a report of inventory levels at the end of the day.
+
+
+Feature 6: Hybrid Solutions with Traditional Financial Institutions
+
+Title: Co-Branded Savings Account
+
+Scenario A: Business owner opens a formal savings account.
+
+Given the business owner wants to access formal banking,
+When they select the co-branded savings option in the app,
+Then they should be guided through the onboarding process with the partner bank,
+And upon approval, their savings account should appear in the app,
+And they should be able to transfer funds between their digital wallet and savings account.
