@@ -44,7 +44,9 @@ And offer a customized repayment plan if approved.
 Feature 3: Financial Literacy Programs
 
 Title: Interactive Financial Education Module
+
 Scenario A: Business owner accesses financial literacy content.
+
 Given the business owner logs into the Fundify app,
 When they navigate to the "Financial Education" section,
 Then they should see modules on budgeting, saving, and debt management,
@@ -52,8 +54,23 @@ And they should have an option to take short quizzes to reinforce their knowledg
 And progress should be saved to show completed modules.
 
 Title: Multi-Language and Literacy Support
+
 Scenario B: Business owner selects a preferred language.
+
 Given the user is a non-native English speaker,
 When they open the app’s language settings,
 Then they should see a list of supported languages,
 And once they select a language, all educational content and app instructions should update to the selected language.
+
+
+Feature 4: Affordable Payment Gateways
+
+
+Title: Low-Fee Transaction Processing
+
+Scenario A: Business owner receives a payment with reduced fees.
+Given a customer wants to pay for goods or services,
+When the business owner selects the “Low-Fee Payment” option in the app,
+Then the app should process the payment with minimal transaction fees,
+And display a breakdown of fees before confirming the payment,
+And issue a digital receipt to both the business owner and customer.
