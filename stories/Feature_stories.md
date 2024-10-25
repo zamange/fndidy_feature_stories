@@ -50,3 +50,10 @@ When they navigate to the "Financial Education" section,
 Then they should see modules on budgeting, saving, and debt management,
 And they should have an option to take short quizzes to reinforce their knowledge,
 And progress should be saved to show completed modules.
+
+Title: Multi-Language and Literacy Support
+Scenario B: Business owner selects a preferred language.
+Given the user is a non-native English speaker,
+When they open the app’s language settings,
+Then they should see a list of supported languages,
+And once they select a language, all educational content and app instructions should update to the selected language.
