@@ -65,7 +65,6 @@ And once they select a language, all educational content and app instructions sh
 
 Feature 4: Affordable Payment Gateways
 
-
 Title: Low-Fee Transaction Processing
 
 Scenario A: Business owner receives a payment with reduced fees.
@@ -74,3 +73,14 @@ When the business owner selects the “Low-Fee Payment” option in the app,
 Then the app should process the payment with minimal transaction fees,
 And display a breakdown of fees before confirming the payment,
 And issue a digital receipt to both the business owner and customer.
+
+
+Title: Pay-as-You-Go Point-of-Sale (POS) System
+
+Scenario B: Street vendor processes a mobile payment.
+
+Given the vendor is operating a pay-as-you-go POS system,
+When they receive payment via the POS in the Fundify app,
+Then the app should prompt them to enter the transaction amount,
+And upon confirmation, the funds should reflect in their digital wallet instantly,
+And they should be able to generate a sales report for the day.
