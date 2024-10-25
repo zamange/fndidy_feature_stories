@@ -119,3 +119,14 @@ When they select the co-branded savings option in the app,
 Then they should be guided through the onboarding process with the partner bank,
 And upon approval, their savings account should appear in the app,
 And they should be able to transfer funds between their digital wallet and savings account.
+
+
+Title: Micro-Savings Scheme
+
+Scenario B: Business owner participates in a micro-savings scheme.
+
+Given the business owner wants to save small amounts regularly,
+When they set up a micro-savings plan,
+Then the app should automatically transfer a small amount to their savings account at a specified interval,
+And show progress toward their savings goal,
+And notify them once their target amount is reached.
