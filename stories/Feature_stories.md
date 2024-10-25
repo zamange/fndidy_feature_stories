@@ -40,3 +40,13 @@ When the app evaluates their transaction history and business activity,
 Then it should calculate a credit score based on alternative data,
 And provide a real-time decision on their eligibility for the loan,
 And offer a customized repayment plan if approved.
+
+Feature 3: Financial Literacy Programs
+
+Title: Interactive Financial Education Module
+Scenario A: Business owner accesses financial literacy content.
+Given the business owner logs into the Fundify app,
+When they navigate to the "Financial Education" section,
+Then they should see modules on budgeting, saving, and debt management,
+And they should have an option to take short quizzes to reinforce their knowledge,
+And progress should be saved to show completed modules.
