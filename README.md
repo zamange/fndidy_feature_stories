@@ -30,5 +30,4 @@ We welcome contributions to enhance our user stories. To contribute:
 1. Fork this repository.
 2. Make your updates or add new user stories in the relevant category.
 3. Create a pull request with a summary of your changes.
-## :bulb: User Story Format
-Each user story follows this structure:
+
